@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <div id="welcome">
+                <h1>Add the "people.xml" and "shiporders.xml" files</h1>
+            </div>            
+
+              <form enctype="multipart/form-data" action="/uploadxml" method="POST">
+                <p>People</p>  
+                <input type="file" name="people" accept="text/xml" />
+                <p>ShipOrders</p>
+                <input type="file" name="shiporders" accept="text/xml" />
+                <input type="submit" value="Submit">
+              </form> 
+            
+            
+            
+            
+        </div>
+    </div>
+{% endblock %}
+
