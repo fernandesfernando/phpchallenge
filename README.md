@@ -14,8 +14,8 @@ composer require symfony/property-access
 
 I created some methods to access data imported, on DefaultController, like:
 
-("/people/all", name="allpeople")
-("/phones/{personid}", name="phonesbyperson") 
-("/orders/{personid}", name="ordersbyperson")
+/people/all, name="allpeople"
+/phones/{personid}, name="phonesbyperson" 
+/orders/{personid}, name="ordersbyperson"
 
 
